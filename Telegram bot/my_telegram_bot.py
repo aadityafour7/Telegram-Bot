@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-Token = "7372889656:AAHAIJjHDFzTYfgYIA4ZdFqZ_kXs8RskZ0w"
+Token = "XYZ"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello! I am Aaditya! Please type /help to fetch the study material \n\n\n Note: This bot is designed as per IT department course content in WCE😉")
